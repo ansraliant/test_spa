@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "spa_test"
+version = "0.1.0"
+description = "Teting spa redirection"
+authors = ["Gabriel Verdi <gaboxmail@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+uvicorn = "^0.13.3"
+fastapi = "^0.63.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
